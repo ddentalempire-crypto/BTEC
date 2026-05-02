@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليل نظام BTEC في الأردن | مستقبلك يبدأ من هنا</title>
+    <meta name="description" content="الدليل الشامل لنظام BTEC التعليمي في الأردن. تعرف على التخصصات، المميزات، وقارن بينه وبين التعليم التقليدي لاختيار مستقبلك.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">BTEC<span>دليلك</span></a>
+                <ul class="nav-links">
+                    <li><a href="#intro">ما هو BTEC؟</a></li>
+                    <li><a href="#quiz">اختار مستقبلك</a></li>
+                    <li><a href="#story">قصة نجاح</a></li>
+                    <li><a href="#comparison">المقارنة</a></li>
+                    <li><a href="#campaign">لماذا BTEC؟</a></li>
+                    <li><a href="#majors">التخصصات</a></li>
+                </ul>
+                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section & Intro -->
+    <section id="intro" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="badge">نظام تعليمي عالمي في الأردن</span>
+                <h1>ابنِ مستقبلك المهني مع نظام <span class="highlight">BTEC</span></h1>
+                <p>نظام BTEC هو مسار تعليمي مهني وتقني بريطاني معتمد، يركز على المهارات العملية والتطبيقية بدلاً من الحفظ النظري. هل أنت جاهز لدخول سوق العمل بقوة؟</p>
+                <div class="hero-buttons">
+                    <a href="#quiz" class="btn btn-primary">هل يناسبك BTEC؟ <i class="fas fa-arrow-left"></i></a>
+                    <a href="#majors" class="btn btn-secondary">تصفح التخصصات</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <!-- We will add a generated image here later -->
+                <div class="glass-card floating-card card-1">
+                    <i class="fas fa-briefcase"></i>
+                    <span>جاهزية لسوق العمل</span>
+                </div>
+                <div class="glass-card floating-card card-2">
+                    <i class="fas fa-globe"></i>
+                    <span>اعتماد دولي</span>
+                </div>
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="طالب BTEC" id="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. "Choose your future" (Interactive Quiz) -->
+    <section id="quiz" class="quiz-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>اختار مستقبلك 🎯</h2>
+                <p>محتار بين BTEC والتعليم التقليدي؟ أجب على هذه الأسئلة البسيطة لنساعدك في اتخاذ القرار.</p>
+            </div>
+            
+            <div class="quiz-container glass-panel">
+                <div id="quiz-progress">
+                    <div class="progress-bar"></div>
+                </div>
+                
+                <div id="quiz-question-container">
+                    <h3 id="question-text">كيف تفضل أن تتعلم؟</h3>
+                    <div class="options-grid">
+                        <button class="quiz-option" data-value="btec">عن طريق التطبيق العملي والمشاريع 🛠️</button>
+                        <button class="quiz-option" data-value="traditional">عن طريق قراءة الكتب والحفظ 📚</button>
+                    </div>
+                </div>
+
+                <div id="quiz-result" class="hidden text-center">
+                    <div class="result-icon"></div>
+                    <h3 id="result-title">النتيجة...</h3>
+                    <p id="result-desc"></p>
+                    <button class="btn btn-primary" onclick="resetQuiz()">إعادة الاختبار</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Success Story -->
+    <section id="story" class="story-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>رحلة طالب.. قصة نجاح 🚀</h2>
+                <p>كيف غير نظام BTEC مسار حياة "أحمد" من الحيرة إلى التفوق.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>الحيرة بعد العاشر 😕</h3>
+                        <p>كان أحمد محتاراً بين مسارات التوجيهي التقليدية، فهو لا يحب الحفظ النظري ويبحث عن تخصص يضمن له وظيفة.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>اتخاذ القرار 💡</h3>
+                        <p>سمع عن نظام BTEC واكتشف أنه يعتمد على المشاريع العملية. قرر التسجيل في تخصص الهندسة والتكنولوجيا.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>متعة الدراسة ⚙️</h3>
+                        <p>بدلاً من الامتحانات الورقية المعقدة، كان التقييم يعتمد على ما يصنعه بيده ومشاركته في الورش.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>النجاح 🎓</h3>
+                        <p>تخرج أحمد بشهادة معتمدة دولياً ومحلياً، وحصل على فرصة عمل فورية بفضل مهاراته العملية التي اكتسبها.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Comparison -->
+    <section id="comparison" class="comparison-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>BTEC مقابل التعليم التقليدي ⚖️</h2>
+                <p>مقارنة شاملة لتساعدك على فهم الفروق الجوهرية.</p>
+            </div>
+
+            <div class="table-container glass-panel">
+                <table class="compare-table">
+                    <thead>
+                        <tr>
+                            <th>وجه المقارنة</th>
+                            <th class="highlight-col">نظام BTEC 🌟</th>
+                            <th>التعليم التقليدي (التوجيهي)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>طريقة التعلم</strong></td>
+                            <td>عملي، تطبيقي، ومشاريع</td>
+                            <td>نظري، يعتمد على التلقين والحفظ</td>
+                        </tr>
+                        <tr>
+                            <td><strong>التقييم</strong></td>
+                            <td>مستمر (مشاريع وواجبات)</td>
+                            <td>امتحان نهائي مصيري</td>
+                        </tr>
+                        <tr>
+                            <td><strong>الاعتماد</strong></td>
+                            <td>دولي (بيرسون بريطانيا) ومحلي</td>
+                            <td>محلي بشكل أساسي</td>
+                        </tr>
+                        <tr>
+                            <td><strong>الجاهزية لسوق العمل</strong></td>
+                            <td>عالية جداً (مهارات عملية)</td>
+                            <td>متوسطة (تحتاج تدريب إضافي)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>الضغط النفسي</strong></td>
+                            <td>أقل (موزع على السنة)</td>
+                            <td>عالي جداً (فترة الامتحانات)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Awareness Campaign -->
+    <section id="campaign" class="campaign-section">
+        <div class="container">
+            <div class="campaign-grid">
+                <div class="campaign-image">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="مستقبل الأردن مع BTEC" id="campaign-img" class="glass-img">
+                </div>
+                <div class="campaign-content">
+                    <h2>لماذا BTEC هو الحل لمستقبل الأردن؟ 🇯🇴</h2>
+                    <p class="lead">سوق العمل يتغير بسرعة، والشهادات الأكاديمية وحدها لم تعد تكفي.</p>
+                    
+                    <div class="problem-solution">
+                        <div class="ps-item">
+                            <i class="fas fa-times-circle text-danger"></i>
+                            <div class="ps-text">
+                                <h4>المشكلة: البطالة بين الجامعيين</h4>
+                                <p>آلاف الخريجين يمتلكون شهادات نظرية ولكن يفتقرون للخبرة العملية التي تطلبها الشركات.</p>
+                            </div>
+                        </div>
+                        <div class="ps-item">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <div class="ps-text">
+                                <h4>الحل: نظام BTEC</h4>
+                                <p>يخرج طلاباً جاهزين للعمل فوراً، لأن تدريبهم كان داخل بيئة تحاكي سوق العمل الحقيقي.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#majors" class="btn btn-outline">اكتشف التخصصات المطلوبة</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Majors Guide -->
+    <section id="majors" class="majors-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>دليل تخصصات BTEC في الأردن 📘</h2>
+                <p>تعرف على التخصصات المتاحة ومستقبلها المهني.</p>
+            </div>
+
+            <div class="majors-grid">
+                <!-- Major 1 -->
+                <div class="major-card glass-card">
+                    <div class="major-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>تكنولوجيا المعلومات (IT)</h3>
+                    <p>تعلم البرمجة، الشبكات، الأمن السيبراني وتطوير الويب عملياً.</p>
+                    <hr>
+                    <div class="major-jobs">
+                        <strong>وظائف المستقبل:</strong> مطور برمجيات، مهندس شبكات، مختص أمن معلومات.
+                    </div>
+                </div>
+
+                <!-- Major 2 -->
+                <div class="major-card glass-card">
+                    <div class="major-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>الأعمال (Business)</h3>
+                    <p>إدارة الأعمال، التسويق، الموارد البشرية، وإدارة المشاريع.</p>
+                    <hr>
+                    <div class="major-jobs">
+                        <strong>وظائف المستقبل:</strong> مدير تسويق، رائد أعمال، مسؤول موارد بشرية.
+                    </div>
+                </div>
+
+                <!-- Major 3 -->
+                <div class="major-card glass-card">
+                    <div class="major-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>الهندسة (Engineering)</h3>
+                    <p>الهندسة الميكانيكية، الكهربائية، والميكاترونكس.</p>
+                    <hr>
+                    <div class="major-jobs">
+                        <strong>وظائف المستقبل:</strong> فني هندسة، مشرف صيانة، مهندس مشاريع.
+                    </div>
+                </div>
+
+                <!-- Major 4 -->
+                <div class="major-card glass-card">
+                    <div class="major-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>الفنون والتصميم</h3>
+                    <p>التصميم الجرافيكي، التصميم الداخلي، الرسوم المتحركة.</p>
+                    <hr>
+                    <div class="major-jobs">
+                        <strong>وظائف المستقبل:</strong> مصمم جرافيك، مصمم واجهات، مصمم داخلي.
+                    </div>
+                </div>
+                
+                <!-- Major 5 -->
+                <div class="major-card glass-card">
+                    <div class="major-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>الضيافة والسياحة</h3>
+                    <p>إدارة الفنادق، فنون الطهي، وإدارة الفعاليات والسياحة.</p>
+                    <hr>
+                    <div class="major-jobs">
+                        <strong>وظائف المستقبل:</strong> مدير فندق، طاهٍ محترف، منظم فعاليات.
+                    </div>
+                </div>
+                
+                <!-- Major 6 -->
+                <div class="major-card glass-card">
+                    <div class="major-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h3>الرعاية الصحية والاجتماعية</h3>
+                    <p>الرعاية التمريضية، الدعم الاجتماعي، والصحة العامة.</p>
+                    <hr>
+                    <div class="major-jobs">
+                        <strong>وظائف المستقبل:</strong> مساعد ممرض، أخصائي رعاية، مرشد صحي.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container text-center">
+            <div class="footer-logo">BTEC<span>دليلك</span></div>
+            <p>صُنع من أجل مساعدة طلاب الأردن في بناء مستقبل أفضل.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
